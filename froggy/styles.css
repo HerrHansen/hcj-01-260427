@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.pond {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    padding: 50px;
+}
+
+.pond--level-1 {
+    background-image: url(./images/pond-level-1.svg);
+    justify-content: flex-end;
+}
+
+.pond--level-2 {
+    background-image: url(./images/pond-level-2.svg);
+    justify-content: center;
+}
+
+.pond--level-3 {
+    background-image: url(./images/pond-level-3.svg);
+    justify-content: space-between;
+}
+
+.frog {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.frog--green {
+    background: url(./images/frog-green.svg);
+}
+
+.frog--red {
+    background: url(./images/frog-red.svg);
+}
+
+.frog--yellow {
+    background: url(./images/frog-yellow.svg);
+}
