@@ -1,0 +1,65 @@
+body {
+    padding-top: 200px;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+
+
+    background: #39c7c0;
+
+}
+
+.wf-red {
+    background-color: rgb(255, 125, 125);
+}
+
+.wf-box {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.hero {
+    position: relative;
+    padding: 20px;
+    border: 1px solid red;
+    max-width: 600px;
+}
+
+.banner {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: green;
+    width: 160px;
+    height: 160px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: blue;
+}
+
+
+.btn {
+    background-color: #39c7c0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
